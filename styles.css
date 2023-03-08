@@ -23,4 +23,26 @@ body {
     background-size: 150vh;
     width: 40vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+    height: 10vh;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25vh;
+    padding: 22px 0;
+}
+
+.logo h1 {
+    font-size: 4rem;
+    color: white;
+    margin: 0;
 }
