@@ -143,3 +143,7 @@ body {
         width: 100vw;
         height: 25vh;
     }
+
+    .logo {
+        top: 4vh;
+    }
