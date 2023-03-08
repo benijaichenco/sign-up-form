@@ -154,5 +154,23 @@ body {
 
     .paragraph {
         text-align: center;
-        padding: 10px 30px;
+        padding: 10px auto;
+        min-width: 300px;
     }
+
+    .center h2 {
+        text-align: center;
+        min-width: 300px;
+    }
+
+    .center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .center .input {
+        padding: 0 auto;
+        width: 80%;
+        min-width: 300px
+    }
+    
