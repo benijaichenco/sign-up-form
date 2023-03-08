@@ -58,3 +58,14 @@ body {
 .credit a {
     color: white;
 }
+
+.container {
+    margin-left: 40vw;
+}
+
+.paragraph {
+    padding: 50px 30px;
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
