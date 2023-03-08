@@ -173,4 +173,12 @@ body {
         width: 80%;
         min-width: 300px
     }
-    
+
+    .wrapper {
+        text-align: center;
+        min-width: 356px;
+    }
+
+    .login {
+        text-align: center;
+    }
