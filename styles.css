@@ -65,7 +65,50 @@ body {
 
 .paragraph {
     padding: 50px 30px;
-    color: rgb(31, 31, 31);
+    color: rgb(73, 73, 73);
     font-weight: bold;
     font-size: 1.3rem;
+}
+
+.center {
+    background-color: whitesmoke;
+    padding: 10px 30px 30px;
+    box-shadow: 0 3px 5px 0 rgb(212, 212, 212);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.center h2 {
+    width: 100%;
+    margin-bottom: 0;
+    color: rgb(73, 73, 73);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.input label {
+    font-size: 0.87rem;
+    color: rgb(83, 83, 83);
+    margin-bottom: 5px;
+}
+
+.input input {
+    border: 1px solid rgb(204, 204, 204);
+    height: 28px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+
+.input input:focus {
+    outline: 1px solid blue;
+    box-shadow: 0 0 5px 0 grey;
+}
+
+.input input:invalid {
+    border: 1px solid red;
 }
