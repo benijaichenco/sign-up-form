@@ -25,6 +25,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo img {
@@ -45,4 +46,15 @@ body {
     font-size: 4rem;
     color: white;
     margin: 0;
+}
+
+.credit {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: -9px;
+}
+
+.credit,
+.credit a {
+    color: white;
 }
