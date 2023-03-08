@@ -88,7 +88,7 @@ body {
 .input {
     display: flex;
     flex-direction: column;
-    width: 25vw;
+    width: 40%;
 }
 
 .input label {
