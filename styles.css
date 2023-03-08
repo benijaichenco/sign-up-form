@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('norse-bold-webfont.woff2') format('woff2'),
+         url('norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'norsebold', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.background {
+    position: fixed;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 150vh;
+    width: 40vw;
+    height: 100vh;
+}
