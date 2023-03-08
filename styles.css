@@ -112,3 +112,17 @@ body {
 .input input:invalid {
     border: 1px solid red;
 }
+
+.wrapper {
+    padding: 30px;
+}
+
+.wrapper button {
+    font-size: 2rem;
+    padding: 10px 30px;
+    background-color: rgb(93, 175, 93);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 grey;
+}
