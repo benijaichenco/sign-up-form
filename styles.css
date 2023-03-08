@@ -147,3 +147,12 @@ body {
     .logo {
         top: 4vh;
     }
+
+    .container {
+        margin: 0;
+    }
+
+    .paragraph {
+        text-align: center;
+        padding: 10px 30px;
+    }
